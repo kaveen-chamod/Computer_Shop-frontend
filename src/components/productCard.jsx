@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import getFormattedPrice from "../utils/priceFormatter"; 
+import getFormattedPrice from "../Utils/priceFormatter"; 
 
 export default function ProductCard(props) {
   const product = props.product;

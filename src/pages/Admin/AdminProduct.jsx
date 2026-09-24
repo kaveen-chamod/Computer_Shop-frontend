@@ -2,9 +2,9 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { BiPlus } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import Loader from "../../components/loader"; 
+import Loader from "../../components/Loader"; 
 import ProductDeleteButton from "../../components/productDeleteButton";
-import getFormattedPrice from "../../utils/priceFormatter";
+import getFormattedPrice from "../../Utils/priceFormatter";
 
 export default function AdminProductsPage(props) {
   const [products, setProducts] = useState([]);

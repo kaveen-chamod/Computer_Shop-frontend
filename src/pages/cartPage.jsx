@@ -3,7 +3,7 @@ import { getCart, addToCart, getCartTotal } from "../utils/cart";
 import { BsChevronUp, BsTrash } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-import getFormattedPrice from "../utils/priceFormatter";
+import getFormattedPrice from "../Utils/priceFormatter";
 
 export default function CartPage() {
     const [cart, setCart] = useState(getCart());

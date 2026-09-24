@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Loader from "../../components/loader";
+import Loader from "../../components/Loader";
 import ViewOrderInfo from "../../components/viewOrderInfo";
-import getFormattedPrice from "../../utils/priceFormatter";
+import getFormattedPrice from "../../Utils/priceFormatter";
 import getFormattedDate from "../../Utils/Date-Format";
 
 export default function AdminOrdersPage() {

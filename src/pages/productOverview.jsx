@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 import { useNavigate, useParams } from "react-router-dom";
-import Loader from "../components/loader";
+import Loader from "../components/Loader";
 import axios from "axios";
 import ImageSlider from "../components/productimageSlideShow";
 import { CgChevronRight } from "react-icons/cg";
 import { addToCart } from "../utils/cart";
 import AuthModal from "../components/authModal"; 
 
-import getFormattedPrice from "../utils/priceFormatter"; 
+import getFormattedPrice from "../Utils/priceFormatter"; 
 
 export default function ProductOverview() {
     const navigate = useNavigate();

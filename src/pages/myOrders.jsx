@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
-import Loader from "../components/loader";
+import Loader from "../components/Loader";
 import { FiShoppingBag, FiClock, FiCheckCircle, FiTruck, FiXCircle } from "react-icons/fi";
-import getFormattedPrice from "../utils/priceFormatter";
+import getFormattedPrice from "../Utils/priceFormatter";
 import getFormattedDate from "../Utils/Date-Format";
 
 export default function MyOrders() {
