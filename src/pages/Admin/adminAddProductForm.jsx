@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import toast, { Toaster } from 'react-hot-toast';
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
-import { MediaUpload } from "../../utils/mediaUpload";
+import { MediaUpload } from "../../Utils/mediaUpload";
 
 export default function AdminAddProductForm(props){ 
 

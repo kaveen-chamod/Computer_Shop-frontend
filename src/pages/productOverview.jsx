@@ -5,7 +5,7 @@ import Loader from "../components/Loader";
 import axios from "axios";
 import ImageSlider from "../components/productimageSlideShow";
 import { CgChevronRight } from "react-icons/cg";
-import { addToCart } from "../utils/cart";
+import { addToCart } from "../Utils/cart";
 import AuthModal from "../components/authModal"; 
 
 import getFormattedPrice from "../Utils/priceFormatter"; 

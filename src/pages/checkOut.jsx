@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import toast from "react-hot-toast";
-import { getCart } from "../utils/cart";
+import { getCart } from "../Utils/cart";
 import getFormattedPrice from "../Utils/priceFormatter";
 import { FiShoppingBag, FiTruck, FiPhone, FiMapPin, FiUser } from "react-icons/fi";
 

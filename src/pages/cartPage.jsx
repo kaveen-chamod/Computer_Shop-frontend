@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { getCart, addToCart, getCartTotal } from "../utils/cart";
+import { getCart, addToCart, getCartTotal } from "../Utils/cart";
 import { BsChevronUp, BsTrash } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
