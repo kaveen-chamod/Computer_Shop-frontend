@@ -26,7 +26,7 @@ export default function ForgotPasswordPage() {
 
         setLoading(true);
         try {
-            const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
+            const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://computer-shop-backend-sa7b.onrender.com";
             await axios.post(backendUrl + "/api/user/forgot-password", { email: email.trim() });
             toast.success("OTP code sent to your email!");
             setStep(2);
@@ -41,7 +41,7 @@ export default function ForgotPasswordPage() {
     const handleResendOtp = async () => {
         setResending(true);
         try {
-            const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
+            const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://computer-shop-backend-sa7b.onrender.com";
             await axios.post(backendUrl + "/api/user/forgot-password", { email: email.trim() });
             toast.success("New OTP code sent!");
         } catch (error) {
@@ -71,7 +71,7 @@ export default function ForgotPasswordPage() {
 
         setLoading(true);
         try {
-            const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
+            const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://computer-shop-backend-sa7b.onrender.com";
             await axios.post(backendUrl + "/api/user/reset-password", {
                 email: email.trim(),
                 otp: otp.trim(),
